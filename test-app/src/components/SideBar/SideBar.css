@@ -1,0 +1,60 @@
+.channel_sidebar {
+    display: flex;
+    width: 445px;
+    flex-direction: column;
+    /*margin-left: 15px;*/
+}
+.barSide {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+.popular {
+    font: 600 14px Work Sans,sans-serif;
+    font-size: 18px;
+}
+.popular:hover {
+    cursor: pointer;
+}
+.editors {
+    font: 600 14px Work Sans,sans-serif;
+    font-size: 18px;
+}
+.editors:hover {
+    cursor: pointer;
+}
+.pop_titles ul{
+    padding: 0;
+    text-align: start;
+    font-family:Merriweather,serif;
+    font-size: 16px;
+    font-weight: 700;
+    max-height: 48px;
+}
+.pop_titles ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pop_titles ul li {
+    margin-top: 20px;
+    height: 70px;
+    padding: 0;
+    margin-left: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: Merriweather,serif;
+    font-size: 17px;
+    max-height: 48px;
+}
+.newss_one {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.newss_one a {
+    font-weight: bolder;
+}
+
+.newss_one span {
+    font-weight: normal;
+}

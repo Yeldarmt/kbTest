@@ -1,0 +1,14 @@
+.main {
+    margin-left: 90px;
+    width: 1340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.forbes_now {
+    text-align: start;
+    color: #333;
+    border-bottom: 1px solid gray;
+}
